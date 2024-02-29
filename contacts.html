@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Дорожный патруль - Контакты</title>
+    <link type="text/css" rel="stylesheet" href="./assets/styles/reset.css" />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="./assets/styles/normalize.css"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="./assets/styles/contacts_styles/contacts.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <a class="header-link__logo" href="index.html">
+          <img
+            class="header-logo"
+            src="./assets/images/header-footer/logo.png"
+            alt="logo"
+        /></a>
+
+        <nav class="header-nav">
+          <ul class="header-nav__items">
+            <li class="header-nav__item">
+              <a href="about.html" class="header-nav__link active-page"
+                >О нас</a
+              >
+            </li>
+            <li class="header-nav__item">
+              <a href="contacts.html" class="header-nav__link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <p class="header-text">
+          Калининградская региональная общественная организация развития
+          инфраструктуры, благоустройства и общественного контроля “Дорожный
+          патруль”
+        </p>
+
+        <div class="burger">
+          <span></span>
+        </div>
+      </header>
+      <div class="contacts__container">
+        <div class="contacts__wrapper">
+          <div class="contacts__info">
+            <h4 class="contacts__info-title">Контакты</h4>
+            <p class="contacts__info-line">
+              Адрес: г. Калининград, ул. Коммунальная, д. 4-6, пом. IV
+            </p>
+            <div class="contacts__info-img">
+              <a href="mailto:okbdd39@mail.ru"
+                ><img
+                  src="./assets/images/contacts/mail_img.png"
+                  alt="mail"
+                  class="card__img"
+              /></a>
+              <a href="https://t.me/okbdd39"
+                ><img
+                  src="./assets/images/contacts/telegram_img.png"
+                  alt="telegram"
+                  class="card__img"
+              /></a>
+              <a href="https://vk.com/okbdd39"
+                ><img
+                  src="./assets/images/contacts/vk_img.png"
+                  alt="vk"
+                  class="card__img"
+              /></a>
+            </div>
+          </div>
+          <div class="contacts__map">
+            <div class="map-responsive">
+              <div class="mapouter">
+                <div class="osm_canvas">
+                  <iframe
+                    max-width="668"
+                    height="388"
+                    id="osm_canvas"
+                    src="about:blank"
+                    frameborder="0"
+                    scrolling="no"
+                    marginheight="0"
+                    marginwidth="0"
+                  ></iframe>
+                  <script>
+                    document
+                      .getElementById("osm_canvas")
+                      .contentDocument.write(
+                        '<link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.min.css" />'
+                      );
+                    document
+                      .getElementById("osm_canvas")
+                      .contentDocument.write(
+                        '<script src = "https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.min.js"><\/script>'
+                      );
+                    document
+                      .getElementById("osm_canvas")
+                      .contentDocument.write(
+                        '<div id ="osm-map" style = "width:100%; height:100%;"></div>'
+                      );
+                    document
+                      .getElementById("osm_canvas")
+                      .contentDocument.write(
+                        '<script>var mapOptions={center:[54.722118, 20.4699469],zoom:15,attributionControl: true}; var map = new L.map("osm-map", mapOptions); map.attributionControl.setPrefix(\'&copy; <a target="_blank" href="https://www.openstreetmap.org/copyright" rel="nofollow noopener noreferrer">OpenStreetMap</a>\'); var layer = new L.TileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png");map.addLayer(layer);let marker = new L.Marker([54.722118, 20.4699469]);marker.addTo(map).bindPopup(\'4, Коммунальная улица\'); marker.on(\'mouseover\',function(ev) {marker.openPopup();});<\/script>'
+                      );
+                    document
+                      .getElementById("osm_canvas")
+                      .contentDocument.close();
+                  </script>
+                  <a href="https://textcaseconvert.com/"></a><br /><a
+                    href="https://online-timer.me/"
+                  ></a
+                  ><br /><style>
+                    .mapouter {
+                      position: static;
+                      text-align: right;
+                      height: 388px;
+                      width: 668px;
+                      @media (max-width: 660px) {
+                        width: 420px !important;
+                        height: 388px;
+                      }
+                      @media (max-width: 430px) {
+                        width: 320px !important;
+                        height: 388px;
+                      }
+                    }</style
+                  ><a href="https://www.embedmaps.co/openstreetmap"
+                    >openstreetmap on website</a
+                  ><style>
+                    .osm_canvas {
+                      overflow: hidden;
+                      background: none !important;
+                      height: 388px;
+                      width: 668px;
+                      @media (max-width: 660px) {
+                        width: 420px !important;
+                        height: 388px;
+                      }
+                      @media (max-width: 430px) {
+                        width: 320px !important;
+                        height: 388px;
+                      }
+                    }
+                  </style>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="footer-wraper">
+          <div class="footer-logo">
+            <img class="footer-logo__picture"
+            src=./assets/images/header-footer/logo.png alt="logo" />
+          </div>
+          <div class="footer-contacts">
+            <div class="footer-contacts__adress">
+              г.Калининград, ул. Коммунальная, д. 4-6. пом. IV
+            </div>
+            <p>
+              <a class="footer-contacts__mail" href="mailto:okbdd39@mail.ru"
+                >okbdd39@mail.ru</a
+              >
+            </p>
+            <div class="footer-contacts__icons">
+              <a href="https://yandex.com/maps/-/CDB-ROzN" target="_blank">
+                <img
+                  src="./assets/images/header-footer/adress.png"
+                  alt="adress"
+                />
+              </a>
+              <a href="mailto:okbdd39@mail.ru">
+                <img src="./assets/images/header-footer/mail.png" alt="email" />
+              </a>
+              <a href="https://t.me/okbdd39">
+                <img
+                  src="./assets/images/header-footer/telegram.png"
+                  alt="telegram"
+                />
+              </a>
+              <a href="https://vk.com/okbdd39">
+                <img src="./assets/images/header-footer/vk.png" alt="vk" />
+              </a>
+            </div>
+          </div>
+          <div class="footer-organization">
+            <p>Калининградская региональная общественная</p>
+            <p>организация развития инфраструктуры, благоустройства</p>
+            <p>и общественного контроля “Дорожный патруль”</p>
+          </div>
+          <div class="footer-organization_small">
+            <p>
+              Калининградская региональная общественная организация развития
+              инфраструктуры, благоустройства и общественного контроля “Дорожный
+              патруль”
+            </p>
+          </div>
+          <div class="itgirls-link">
+            <a href="https://itgirlschool.com/" target="_blank"
+              >Сайт разработан на: https://itgirlschool.com/</a
+            >
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="./assets/js/burger.js"></script>
+  </body>
+</html>
